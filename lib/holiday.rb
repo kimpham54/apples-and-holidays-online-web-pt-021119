@@ -98,6 +98,7 @@ holiday_hash.collect do |holiday, holidayhash|
       supplyarray.map do |supply|
         if supply == "BBQ"
           names.push(holidayhashid)
-  array.find{|cheese| cheese_types.include?(cheese)}
-
+        end
+      end
+    end
 end
