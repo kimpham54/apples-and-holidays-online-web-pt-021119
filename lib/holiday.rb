@@ -100,7 +100,7 @@ holiday_hash.each do |holiday, holidayhash|
         # if supply == "BBQ"
           names.push(holidayhashid)
           names
-        end
+        # end
       end
     end
     end
