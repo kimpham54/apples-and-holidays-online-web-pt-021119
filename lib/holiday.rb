@@ -99,6 +99,7 @@ holiday_hash.each do |holiday, holidayhash|
       # supplyarray.each do |supply|
         # if supply == "BBQ"
           names.push(holidayhashid)
+          names
         end
       end
     end
