@@ -95,9 +95,9 @@ def all_holidays_with_bbq(holiday_hash)
 names = []
 holiday_hash.each do |holiday, holidayhash|
     holidayhash.each do |holidayhashid, supplyarray|
-      # if supplyarray.include?("BBQ") == true
-      supplyarray.each do |supply|
-        if supply == "BBQ"
+      if supplyarray.include?("BBQ") == true
+      # supplyarray.each do |supply|
+        # if supply == "BBQ"
           names.push(holidayhashid)
           names
         end
