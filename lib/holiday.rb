@@ -106,4 +106,5 @@ holiday_hash.each do |holiday, holidayhash|
       end
     end
     end
+    names
 end
