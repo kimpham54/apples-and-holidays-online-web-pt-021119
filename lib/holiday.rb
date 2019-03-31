@@ -102,3 +102,4 @@ holiday_hash.collect do |holiday, holidayhash|
       end
     end
 end
+end
